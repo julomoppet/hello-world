@@ -1,0 +1,34 @@
+Format	Typical Extension	Import Package	Export Package	Installed by Default
+Comma-separated data	.csv	data.table	data.table	Yes
+Pipe-separated data	.psv	data.table	data.table	Yes
+Tab-separated data	.tsv	data.table	data.table	Yes
+SAS	.sas7bdat	haven	haven	Yes
+SPSS	.sav	haven	haven	Yes
+Stata	.dta	haven	haven	Yes
+SAS XPORT	.xpt	haven	haven	Yes
+SPSS Portable	.por	haven		Yes
+Excel	.xls	readxl		Yes
+Excel	.xlsx	readxl	openxlsx	Yes
+R syntax	.R	base	base	Yes
+Saved R objects	.RData, .rda	base	base	Yes
+Serialized R objects	.rds	base	base	Yes
+Epiinfo	.rec	foreign		Yes
+Minitab	.mtp	foreign		Yes
+Systat	.syd	foreign		Yes
+“XBASE” database files	.dbf	foreign	foreign	Yes
+Weka Attribute-Relation File Format	.arff	foreign	foreign	Yes
+Data Interchange Format	.dif	utils		Yes
+Fortran data	no recognized extension	utils		Yes
+Fixed-width format data	.fwf	utils	utils	Yes
+gzip comma-separated data	.csv.gz	utils	utils	Yes
+CSVY (CSV + YAML metadata header)	.csvy	csvy	csvy	No
+EViews	.wf1	hexView		No
+Feather R/Python interchange format	.feather	feather	feather	No
+Fast Storage	.fst	fst	fst	No
+JSON	.json	jsonlite	jsonlite	No
+Matlab	.mat	rmatio	rmatio	No
+OpenDocument Spreadsheet	.ods	readODS	readODS	No
+HTML Tables	.html	xml2	xml2	No
+Shallow XML documents	.xml	xml2	xml2	No
+YAML	.yml	yaml	yaml	No
+Clipboard	default is tsv	clipr	clipr	No
