@@ -2,4 +2,4 @@
 
 Hi mates!
 
-My nale is Julian and I like cooking
+My name is Julian and I like cooking
